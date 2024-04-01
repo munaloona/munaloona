@@ -1,0 +1,25 @@
+body {
+
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #6c6c6c;
+
+}
+
+.middle-bubble {
+
+    margin: 0;
+    padding: 4px 16px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    
+    cursor: default;
+    background-color: #5c5c5c;
+    border: 1px solid #2c2c2c;
+    border-radius: 2px;
+    box-shadow: rgba(0, 0, 0, 0.75) 2px 4px 6px;
+    color: rgb(17, 17, 17);
+
+}
