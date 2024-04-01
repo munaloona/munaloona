@@ -23,3 +23,12 @@ body {
     color: rgb(17, 17, 17);
 
 }
+
+.connections {
+
+    background-color: #4d4d4d;
+    border: 1px solid #2d2d2d;
+    padding: 4px 6px;
+    border-radius: 1px;
+
+}
