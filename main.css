@@ -1,7 +1,9 @@
 body {
-
-    font-family: 'Courier New', Courier, monospace;
-    background-color: #6c6c6c;
+    background-image: url(assets/Field_At_Dusk_\(217703719\).jpeg);
+    font-family: Poppins;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px -125px;
 
 }
 
@@ -16,18 +18,17 @@ body {
     text-align: center;
     
     cursor: default;
-    background-color: #5c5c5c;
-    border: 1px solid #2c2c2c;
-    border-radius: 2px;
+    background-color: #ffffff65;
+    backdrop-filter: blur(2px);
+    border: 1px solid #ffffff;
+    border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.75) 2px 4px 6px;
-    color: rgb(17, 17, 17);
+    color: rgb(0, 0, 0);
 
 }
 
 .connections {
 
-    background-color: #4d4d4d;
-    border: 1px solid #2d2d2d;
     padding: 4px 6px;
     border-radius: 1px;
 
