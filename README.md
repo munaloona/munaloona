@@ -1,1 +1,1 @@
-coming soon! check out my batch project! https://github.com/munaloona/MoonOS
+coming soon! please go check out moon os!
