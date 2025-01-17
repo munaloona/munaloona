@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/styles.css">
+    <title>MoonaLoons.com</title>
+</head>
+<body>
+  <div class="game">
+    <header>Minecraft</header>
+    <img src="assets/img/mc.png" width="400" style="border-radius: 10px;"><br>
+    <select name="mc" id="mc" style="height: 30px;" class="mc-select">
+      <option value="188">1.8.8</option>
+      <option value="188W">1.8.8 WASM</option>
+      <option value="152">1.5.2</option>
+    </select>
+    <button type="submit" id="go" style="height: 30px;" class="go">Go</button>
+  </div>
+
+  <script>
+    const select = document.getElementById('mc');
+    const go = document.getElementById('go');
+
+    go.addEventListener('click', () => {
+      if (select.value === "188") {
+        window.location.href = "games/minecraft/1.8.8.htm";
+      } else if (select.value === "152") {
+        window.location.href = "games/minecraft/1.5.2.htm";
+      } else if (select.value === "188W") {
+        window.location.href = "games/minecraft/1.8.8-wasm.html"
+      } else {
+        console.log("Unexpected error occurred")
+      }
+    });
+  </script>
+</body>
+</html>
