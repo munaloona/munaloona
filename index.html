@@ -5,6 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/styles.css">
     <title>MoonaLoons.com</title>
+    <script>
+	window.addEventListener('beforeunload', function (event) {
+	  if (document.visibilityState === 'hidden') {
+		console.log('Possible redirect attempt detected.');
+		event.preventDefault(); // Prevent navigation
+	  }
+	});
+	</script>
 </head>
 <body>
   <div class="game">
