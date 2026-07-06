@@ -1,7 +1,7 @@
 <h1 align="center">hi!! i'm alyssa!</h1>
 <p align="center">(moonaloona/moonaloons/munaloona)</p>
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=munaloona&label=Profile%20views&color=0e75b6&style=flat" alt="profile views" />
+  <img src="https://count.getloli.com/@2r3ff2e?name=2r3ff2e&theme=gelbooru&padding=7&offset=0&align=top&scale=1&pixelated=1&darkmode=auto" alt="profile views" />
 </p>
 
 ---
